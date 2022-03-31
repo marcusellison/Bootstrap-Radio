@@ -1,0 +1,12 @@
+label:hover,
+label:active {
+  box-shadow: 0.125rem 0.0625rem 0.9375rem 0.125rem rgba(0, 0, 0, 0.29);
+  background-color: rgba(255, 255, 255, 0.295) !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+input[type="radio"]:checked + label {
+  background-color: rgba(255, 255, 255, 0.295) !important;
+  transition: 0.3s;
+}

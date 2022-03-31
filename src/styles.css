@@ -1,0 +1,27 @@
+.background-overlay-tint {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    131.3deg,
+    rgba(0, 71, 187, 0.92) 11.94%,
+    rgba(33, 0, 70, 0.96) 89.35%
+  );
+  background-blend-mode: saturation;
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.z-index-top {
+  z-index: 1;
+}
+
+.chat-window {
+  width: 17.1875rem;
+}

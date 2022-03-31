@@ -1,0 +1,17 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 3.625rem;
+  width: 100%;
+}
+
+.footer-tray {
+  background-color: rgba(8, 22, 57, 0.95);
+}
+
+.copyright-navigation {
+  color: rgba(8, 22, 57, 0.95);
+  position: relative;
+  height: 1.25rem;
+  top: -5rem;
+}

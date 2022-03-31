@@ -1,0 +1,33 @@
+.outer {
+  background-color: rgba(245, 244, 244, 0.2);
+}
+
+.welcome .row {
+  color: #fff;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.inner {
+  background-image: url(iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+  background-position: 0 4.6875rem;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 auto;
+}
+
+/* clears the fixed header */
+.welcome .align-items-start,
+.welcome .align-items-center,
+.welcome .align-items-end {
+  padding-top: 3.75rem;
+  padding-bottom: 8.125rem;
+}
+
+@media (max-width: 575.98px) {
+  .inner {
+    background-position-y: 70px !important;
+    background-image: none !important;
+  }
+}

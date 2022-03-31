@@ -1,0 +1,36 @@
+.background-cover-image {
+  position: fixed;
+  background-image: url(iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.zoom {
+  -webkit-animation: zoomin 10s ease;
+  animation: zoomin 10s ease;
+  animation-delay: 120ms;
+  animation-fill-mode: forwards;
+}
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
